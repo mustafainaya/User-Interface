@@ -64,3 +64,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+ *{
+	box-sizing: border-box;
+} 
+
+
+.container {
+    width: 800px;
+    margin: auto;
+	background-color: lightgrey;
+}
+/* .container .header nav {
+	border: 2px solid red;
+	text-align: center;
+	margin-right:200px;
+	margin-top:20px;
+	padding:20px;
+	display:inline-block;*/
+	
+	
+ul {
+    
+    width: 75%;
+    float:left;
+}
+
+li {
+    float: left;
+    
+
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: grey;
+}
+.header img {
+	margin-top:10px;
+	width:25%;
+
+}
+
+.lower-header button {
+	border: 2px solid red;
+	padding: 15px 25px;
+	font-size:30px;
+	
+}
+.top-img{
+	width:44%;
+	margin-left:auto;
+	display:inline-block;
+	position:relative;
+}
+.top-line {
+	width:85%;
+	border:1px;
+
+}
+.cta-container{
+position: relative;
+}
+.lower-header {
+font-size: 50px;
+position:relative;
+text-align:center;
+width:48%;
+display:inline-block;
+}
+
+.Features {
+	border: 2px solid red;
+	margin:90px 500px 0px 0px;
+	display:inline-block;
+
+}
+.About {
+	border: 2px solid red;
+	margin:90px 500px 0px 0px;
+	display:inline-block;
+}
+.top-img {
+	display: inline-block;
+    width: 48%;
+	
+}
+.services {
+	border: 2px solid red;
+	margin: 50px 650px 0px 0px;
+	display:inline-block;
+}
+.Product {
+	border: 2px solid red;
+	margin:50px 650px 0px 0px;
+	display:inline-block;
+}
+.Vision	{
+	border: 2px solid red;
+	margin:50px 650px 0px 0px;
+	display:inline-block;
+}
+.Contact {
+	border: 2px solid red;	
+
+	
+}
+.footer{
+border: 2px solid red;	
+}
+
