@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5 {
 
 .container {
     width: 800px;
+	height: 1500px;
     margin: auto;
 	background-color: lightgrey;
 }
@@ -141,6 +142,7 @@ li a {
     width: 100%;
     position: relative;
     height: 480px;
+	top:100px;
 }
 
 .lower-header {
@@ -157,6 +159,7 @@ li a {
     width: 100%;
     position: relative;
     height: 140px;
+	top:100px;
 }
 
 .Features {
@@ -181,21 +184,23 @@ li a {
 .middle-img img {
 	width:100%;
 	position:relative;
+    top: 100px;
 }
 .bottom-content {
 	width: 100%;
     position: relative;
     height: 350px;
+	top:100px;
 }
 
 .services {
-	margin: 50px 650px 0px 0px;
+	right:600px;
 	display:inline-block;
 	position: absolute;
 	left:0;
 	font-size: 20px;
 	bottom:5px;
-	top:8px;
+	top:55px;
 }
 .Product {
 	display:inline-block;
@@ -207,18 +212,27 @@ li a {
 .Vision	{
 	display:inline-block;
 	position: absolute;
-	left: 300px;
-    top: 50px;
+	left: 250px;
+    top: 55px;
     font-size: 20px;
+	
 
 	
 }
 .Contact {
-	border: 2px solid red;	
 
-	
+	position:relative; 
+	top: 150px;	
 }
-.footer{
-border: 2px solid red;	
+.Contact address {
+	font-size:17px;
+}
+footer p{
+	
+	position:relative;
+	top:190px;
+	text-align: center;
+	font-size:20px;	
+
 }
 
