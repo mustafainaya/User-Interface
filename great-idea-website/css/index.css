@@ -108,65 +108,110 @@ li a {
 	width:25%;
 
 }
+.header { 
+  position: fixed;
+  width: 62%;
+  top: 0px;
+  left: 243px;
+  background-color:lightcoral;
+  
+
+}
 
 .lower-header button {
-	border: 2px solid red;
-	padding: 15px 25px;
-	font-size:30px;
+	padding:0px 10px 0px 10px ;
+	font-size:20px;
+
 	
 }
 .top-img{
-	width:44%;
-	margin-left:auto;
-	display:inline-block;
-	position:relative;
+    display: inline-block;
+    width: 48%;
+    right: 0;
+    top: 40;
+    position: absolute;
 }
+
 .top-line {
 	width:85%;
 	border:1px;
 
 }
 .cta-container{
-position: relative;
+    width: 100%;
+    position: relative;
+    height: 480px;
 }
+
 .lower-header {
-font-size: 50px;
-position:relative;
-text-align:center;
-width:48%;
-display:inline-block;
+    font-size: 85px;
+    text-align: center;
+    width: 48%;
+    top: 50;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+
+}
+.top-content {
+    width: 100%;
+    position: relative;
+    height: 140px;
 }
 
 .Features {
-	border: 2px solid red;
-	margin:90px 500px 0px 0px;
-	display:inline-block;
+    width:40% ;
+	position: absolute;
+	display: inline-block;
 
+    
 }
 .About {
-	border: 2px solid red;
-	margin:90px 500px 0px 0px;
-	display:inline-block;
+    width:40% ;
+	position: absolute;
+	display: inline-block;
+	right:0;
+	
 }
 .top-img {
 	display: inline-block;
     width: 48%;
 	
 }
+.middle-img img {
+	width:100%;
+	position:relative;
+}
+.bottom-content {
+	width: 100%;
+    position: relative;
+    height: 350px;
+}
+
 .services {
-	border: 2px solid red;
 	margin: 50px 650px 0px 0px;
 	display:inline-block;
+	position: absolute;
+	left:0;
+	font-size: 20px;
+	bottom:5px;
+	top:8px;
 }
 .Product {
-	border: 2px solid red;
-	margin:50px 650px 0px 0px;
 	display:inline-block;
+	position: absolute;
+	left:600px;
+	top:50px;
+	font-size: 20px	
 }
 .Vision	{
-	border: 2px solid red;
-	margin:50px 650px 0px 0px;
 	display:inline-block;
+	position: absolute;
+	left: 300px;
+    top: 50px;
+    font-size: 20px;
+
+	
 }
 .Contact {
 	border: 2px solid red;	
