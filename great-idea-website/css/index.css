@@ -111,6 +111,7 @@ li a {
 }
 .header { 
   position: fixed;
+  z-index:3;
   width: 62%;
   top: 0px;
   left: 243px;
@@ -160,6 +161,8 @@ li a {
     position: relative;
     height: 140px;
 	top:100px;
+	padding-top:30px;
+	border-top:1px solid black;
 }
 
 .Features {
@@ -184,13 +187,14 @@ li a {
 .middle-img img {
 	width:100%;
 	position:relative;
-    top: 100px;
+    top: 150px;
 }
 .bottom-content {
 	width: 100%;
     position: relative;
     height: 350px;
-	top:100px;
+	top:150px;
+	border-bottom:1px solid black;
 }
 
 .services {
@@ -198,6 +202,7 @@ li a {
 	display:inline-block;
 	position: absolute;
 	left:0;
+	width:30%;
 	font-size: 20px;
 	bottom:5px;
 	top:55px;
@@ -205,14 +210,16 @@ li a {
 .Product {
 	display:inline-block;
 	position: absolute;
-	left:600px;
+	left:560px;
+	width:30%;
 	top:50px;
 	font-size: 20px	
 }
 .Vision	{
 	display:inline-block;
 	position: absolute;
-	left: 250px;
+	left: 280px;
+	width:30%;
     top: 55px;
     font-size: 20px;
 	
@@ -222,7 +229,7 @@ li a {
 .Contact {
 
 	position:relative; 
-	top: 150px;	
+	top: 190px;	
 }
 .Contact address {
 	font-size:17px;
